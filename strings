@@ -1,3 +1,5 @@
+#Simple printing
+
 y = str("This is Chittagong")
 print(y)
 
@@ -5,6 +7,43 @@ print(y)
 #Multiline string
 
 a = """This is a multiline string
-	     and you have to use three quotes"""
-    
+	and you have to use three quotes"""
 print(a)
+
+
+#slicing strings
+
+b = "Helloworld"
+print(b[2:7])
+print(b[:5])
+print(b[3:])
+
+
+#slicing strings negative value
+b = "Hello, world!"
+print(b[-4:-2])
+print(b[-4:])
+
+
+#All upper case print
+a = "London is a great place to study"
+print (a.upper())
+
+
+
+# Boolean Values
+
+
+a = 100
+b = 90
+
+if a>b:
+
+  print ("a is greater than b")
+    
+else:
+    
+  print("a is smaller than b")
+    
+print(bool("Hello"))
+print(bool(15))
