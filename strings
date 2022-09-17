@@ -1,0 +1,10 @@
+y = str("This is Chittagong")
+print(y)
+
+
+#Multiline string
+
+a = """This is a multiline string
+	     and you have to use three quotes"""
+    
+print(a)
