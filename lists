@@ -21,11 +21,8 @@ print(myList3)
 #Python list function
 
 newList = (("Apple", "Banana", "Orange"), (1, 2, 3, 4), (True, False, True))
-
 print (len(newList))
-
 print(newList[0])
-
 print(newList[-1])
 
 
@@ -36,9 +33,50 @@ print(thislist[2:5])
 
 
 #To check if an item is in the list
-
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list.")
+  
+  
+
+
+#Setting an item is in a list
+myList = ["apple", "banana", "cherry"]
+myList[2] = "orange"
+print(myList)
+
+
+#Changing value in a list
+
+myList = ["apple", "banana", "cherry", "orange", "Guava"]
+print(myList)
+
+myList[1:3]= ["kiwi", "mango"]
+print(myList)
+
+
+#insert value in a list
+myList = ["apple", "banana", "cherry", "orange", "Guava"]
+myList.insert(2,"watermelon")
+print(myList)
+
+
+#append list items
+myList = ["orange", "banana", "guava"]
+print(myList)
+
+myList.append("cherry")
+print(myList)
+
+
+#append a list with another list
+myList1 = ["orange", "banana", "guava"]
+myList2 = ["cherry", "watermelon", "kiwi"]
+
+myList1.extend(myList2)
+print(myList1)
+
+
+
 
 
