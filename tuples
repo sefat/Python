@@ -1,1 +1,32 @@
+# create/packing a tuple
 
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+# tuple item print in a specific position
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[1:])
+
+
+# check item in a tuple
+thistuple = ("apple", "banana", "cherry")
+if "apple" in thistuple:
+ print ("Yes, apple is in this tuple")
+ 
+ 
+ # changing a tuple
+
+mytuple = ("apple", "cherry", "banana")
+x = list(mytuple)
+x.append("orange")
+mytuple = tuple(x)
+print(mytuple)
+
+
+# remove item from a tuple
+
+mytuple = ("apple", "cherry", "banana")
+y = list(mytuple)
+y.remove("banana")
+mytuple = list(y)
+print(mytuple)
