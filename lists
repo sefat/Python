@@ -80,3 +80,60 @@ print(myList1)
 
 
 
+#Loop through a list
+
+mylist = ["jim", "joe", "jolene"]
+
+for i in range(len(mylist)):
+
+ print (mylist[i])
+ 
+
+
+# Loop thorugh a list using while
+
+mylist = ["Mike", "John", "Jimmy", "Erik"]
+
+i = 0
+while i < len(mylist):
+ print (mylist[i])
+ i = i + 1
+
+
+ 
+#Create a new list based on conditions on previous list 
+ 
+mylist = ["Mike", "John", "Jimmy", "Erik"]
+newlist = []
+
+for x in mylist:
+ if "o" not in x: 
+  newlist.append(x)
+  
+print (newlist)
+
+
+
+list1 = ["Jimi", "Nicole", "Dean", "Craig"]
+list2 = [23, 34, 11, 39]
+
+
+list3 = list1 + list2
+print(list3)
+
+
+
+#joining 2 lists- method 2
+
+list1 = ["Jimi", "Nicole", "Dean", "Craig"]
+list2 = [23, 34, 11, 39]
+
+for x in list2:
+ list1.append(x)
+
+print (list1)
+
+
+
+
+
